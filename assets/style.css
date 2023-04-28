@@ -1,0 +1,11 @@
+.highScore {
+display: flex;
+justify-content: left;
+color: magenta;
+font: 28px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
