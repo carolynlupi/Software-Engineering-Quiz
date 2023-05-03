@@ -90,15 +90,13 @@ var clearHighScoreBtn = document.getElementById("clearHighScoreBtn");
 var viewHighScore = document.getElementById("viewHighScore");
 var listOfHighScores = document.getElementById("listOfHighScores");
 
-// define other variables
+// other variables
 var correctAns = 0;
 var questionNum = 0;
 var scoreResult;
 var questionIndex = 0;
 
-/**
- * FUNCTIONS
- */
+/*** FUNCTIONS*/
 
 // WHEN I click the start button, timer starts
 var totalTime = 151;
@@ -126,15 +124,9 @@ function newQuiz() {
 
     showQuiz();
 };
-
-// console.log(questions[questionIndex].question);
-// console.log(questions[questionIndex].choices);
-
-// then presented with questions and choices
 function showQuiz() {
     nextQuestion();
 }
-
 function nextQuestion() {
     questionTitle.textContent = questions[questionIndex].question;
     choiceA.textContent = questions[questionIndex].choices[0];
@@ -151,12 +143,12 @@ function checkAnswer(answer) {
     answerCheck.style.display = "block";
 
     if (questions[questionIndex].answer === questions[questionIndex].choices[answer]) {
-        // correct answer, add 1 score to final score
+        // correct answer, Add 1 score to final score
         correctAns++;
         // console.log(correctAns);
         answerCheck.textContent = "Correct!";
     } else {
-        // wrong answer, deduct 10 second from timer
+        // wrong answer, Deduct 10 second from timer
         totalTime -= 10;
         timeLeft.textContent = totalTime;
         answerCheck.textContent = "Wrong! The correct answer is: " + questions[questionIndex].answer;
