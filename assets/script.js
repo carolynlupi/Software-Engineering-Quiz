@@ -1,33 +1,33 @@
 const questions = [
     {
-        question: "Inside which HTML element do we put the JavaScript?",
-        choices: ["a. <js>", "b. <javascript>", "c. <scripting>", "d. <script>"],
-        answer: "d. <script>"
+        question: "Which of these countries has the largest population?",
+        choices: ["a. Germany", "b. Russia", "c. Brazil", "d. Iran"],
+        answer: "a. Germany"
     },
     {
-        question: "String values must be enclosed within _____ when being assigned to variables.",
-        choices: ["a. commas", "b. curly brackets", "c. quotes", "d. parenthesis"],
-        answer: "c. quotes"
+        question: "Italy can be found in which continent?",
+        choices: ["a. Africa", "b. Europe", "c. Asia", "d. South America"],
+        answer: "b. Europe"
     },
     {
-        question: "Arrays in JavaScript can be used to store _____.",
-        choices: ["a. numbers and strings", "b. other arrays", "c. booleans", "d. all of the above"],
-        answer: "b. other arrays"
+        question: "Beijing is the capital city of _____.",
+        choices: ["a. Laos", "b. Thailand", "c. China", "d. Vietnam"],
+        answer: "c. China"
     },
     {
-        question: "Commonly used data types DO NOT include:",
-        choices: ["a. strings", "b. booleans", "c. alerts", "d. numbers"],
-        answer: "c. alerts"
+        question: "Tokyo is the capital city of _____.",
+        choices: ["a. Argentina", "b. Japan", "c. United States", "d. Italy"],
+        answer: "b. Japan"
     },
     {
-        question: "How do you create a function in JavaScript",
-        choices: ["a. function = myFunction()", "b. function myFunction()", "c. function:myFunction()", "d. createMyFunction()"],
-        answer: "b. function myFunction()"
+        question: "What state is the city Los Angeles in?",
+        choices: ["a. Texas", "b. Utah", "c. Florida", "d. California"],
+        answer: "d. California"
     },
     {
-        question: "How do you call a function named myFunction?",
-        choices: ["a. call myFunction()", "b. call function myFunction()", "c. myFunction()", "d. call myFunction"],
-        answer: "c. myFunctions()"
+        question: "How many states are in the United States?",
+        choices: ["a. 45", "b. 50", "c. 38", "d. 52"],
+        answer: "b. 50"
     },
     {
         question: "To see if two variables are equal in an if / else statement you would use ____.",
