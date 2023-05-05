@@ -29,36 +29,6 @@ const questions = [
         choices: ["a. 45", "b. 50", "c. 38", "d. 52"],
         answer: "b. 50"
     },
-    {
-        question: "To see if two variables are equal in an if / else statement you would use ____.",
-        choices: ["a. =", "b. ==", "c. 'equals'", "d. !="],
-        answer: "b. =="
-    },
-    {
-        question: "The first index of an array is ____.",
-        choices: ["a. 0", "b. 1", "c. 8", "d. any"],
-        answer: "a. 0"
-    },
-    {
-        question: "Who invented JavaScript?",
-        choices: ["a. Douglas Crockford", "b. Sheryl Sandberg", "c. Brendan Eich", "d. Ben Javascript"],
-        answer: "c. Brendan Eich"
-    },
-    {
-        question: "How to write an IF statement in JavaScript?",
-        choices: ["a. if i == 5 then", "b. if i = 5 then", "c. if(i == 5)", "d. if i = 5"],
-        answer: "c. if(i == 5)"
-    },
-    {
-        question: "How do you add a comment in a JavaScript?",
-        choices: ["a. //This is a comment", "b. <!--This is a comment-->", "c. 'This is a comment", "d. * This is a comment *"],
-        answer: "a. //This is a comment"
-    },
-    {
-        question: "Which event occurs when the user clicks on an HTML element?",
-        choices: ["a. onclick", "b. onchange", "c. onmouseover", "d. onmouseclick"],
-        answer: "a. onclick"
-    }
 ];
 
 // grab references to elements
